@@ -12,8 +12,10 @@
 </head>
 <body>
     <h1>MUSIC SEARCH</h1>
-    <input id="serch_keyword" type="text">
-    <button id="serch_button" value="検索">検索</button>
+    <form class="form-wrapper cf">
+        <input id="serch_keyword" type="text" placeholder="Search here..." required>
+        <button id="serch_button" type="submit" value="検索">Search</button>
+    </form>
     <div class="result"></div>
     <div class="kako">
     <ul id="output" class="memory"></ul>
@@ -47,7 +49,7 @@
       
         // Your web app's Firebase configuration
         const firebaseConfig = {
-          apiKey: "AIzaSyA-zDsP9Qg9OIaeTfVJYIt3Y2cp4yqEIGc",
+          apiKey: "",
           authDomain: "musicsearch-81d57.firebaseapp.com",
           projectId: "musicsearch-81d57",
           storageBucket: "musicsearch-81d57.appspot.com",
