@@ -1,0 +1,43 @@
+* {
+    margin: 0; padding: 0; list-style: none;
+}
+
+body {
+    background-image: url("../api/images/image.jpg");
+    text-align: center;
+    font-family: ;
+}
+
+h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.result {
+    color: #fff;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.result {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+.result img {
+    /* justify-content: center; */
+    height: 100px;
+    width: 100px;
+}
+
+.result h3 {
+    text-align: center;
+}
+
+.result p {
+    text-align: center;
+}
+
+.result a {
+    text-align: center
+}
