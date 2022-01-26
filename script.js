@@ -11,7 +11,7 @@ $('#serch_button').click(function() {
         type: 'GET',
         dataType: 'json',
         data: {
-            lang: 'ja_jp',
+            // lang: 'ja_jp',
             media: 'music',
             entity: 'song',
             country: 'JP',
