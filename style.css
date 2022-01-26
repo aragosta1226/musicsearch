@@ -5,12 +5,14 @@
 body {
     background-image: url("../musicsearch/images/image.jpg");
     text-align: center;
-    font-family: ;
 }
 
 h1 {
     color: #fff;
-    font-size: 50px;
+    font-size: 100px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 0.01em;
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
 
 .result {
@@ -22,6 +24,7 @@ h1 {
 .result {
     /* display: flex; */
     /* flex-wrap: wrap; */
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }
 
 .result img {
@@ -39,10 +42,31 @@ h1 {
 }
 
 .result a {
-    text-align: center
+    text-align: center;
+    color: #fff;
 }
 
 .kako {
+    background-color: #2e2e2e;
+    opacity: 0.5;
+}
+
+.memory {
     color: #fff;
     font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+/*---------------------
+フッター
+---------------------*/
+footer {
+	text-align: center;
+}
+
+footer p {
+	color: #fff;
+	font-size: 18px;
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 }

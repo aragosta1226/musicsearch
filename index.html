@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=2">
     <title>Music Seach</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers">
     <link rel="shortcut icon" href="../musicsearch/images/music_record_disc.png">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
@@ -14,7 +15,9 @@
     <input id="serch_keyword" type="text">
     <button id="serch_button" value="検索">検索</button>
     <div class="result"></div>
-    <ul id="output" class="kako"></ul>
+    <div class="kako">
+    <ul id="output" class="memory"></ul>
+    </div>
     <script type="text/javascript" src="script.js"></script>
     <script type="module">
         function convertTimestampToDatetime(timestamp) {
@@ -95,9 +98,26 @@
                 `);
                 // console.log(data);
             });
+
+            //エンター押したら入力される処理
+            // $("#serch_keyword").on("keydown", function (e) {
+            //     if (e.keyCode === 13) {
+            //         const data = {
+            //             name: $("#serch_keyword").val(),
+            //             time: serverTimestamp(),
+            //         };
+            //         console.log(data);
+            //         addDoc(collection(db, "history"), data);
+            //         $("#serch_keyword").val("");
+            //     }
+            // });
+
             $("#output").html(tagArray);
             // console.log(tagArray);
         });
       </script>
+      <footer>
+          <p><small>2022 G's FUKUOKA DEV10-04</small></p>
+      </footer>
 </body>
 </html>
