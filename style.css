@@ -13,6 +13,7 @@ h1 {
     font-family: 'Bangers', cursive;
     letter-spacing: 0.06em;
     text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    padding-top: 30px;
 }
 
 /*-------------------------------------*/
@@ -35,7 +36,7 @@ h1 {
   .form-wrapper {
       width: 450px;
       padding: 15px;
-      margin: 150px auto 50px auto;
+      margin: 30px auto 30px auto;
       background: #444;
       background: rgba(0,0,0,.2);
       -moz-border-radius: 10px;
